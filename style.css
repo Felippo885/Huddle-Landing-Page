@@ -1,0 +1,102 @@
+/* Corpo */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Conteudo */
+
+.logo-img {
+    height: 40px;
+    position: relative;
+    left: 185px;
+    top: 50px;
+}
+
+.desk-img {
+    height: 400px;
+}
+
+.conteudo-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.elements2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    width: 400px;
+}
+
+.h2-elements {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.9rem;
+}
+
+.para-elements {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.btn-regst {
+    border: none;
+    border-radius: 30px;
+
+    padding: 15px;
+    width: 180px;
+    height: 50px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+    color: hsl(257, 40%, 49%);
+    
+    box-shadow: 0 1px 10px hsl(257, 38%, 31%);
+
+    position: relative;
+    right: 100px;
+
+    cursor: pointer;
+}
+
+.btn-regst:hover {
+    background: hsl(300, 69%, 71%);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.attribution a { 
+        color: hsl(0, 0%, 100%); 
+}
