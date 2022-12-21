@@ -16,9 +16,8 @@ body {
 
 .logo-img {
     height: 40px;
-    position: relative;
-    left: 185px;
-    top: 50px;
+    margin: 30px;
+    
 }
 
 .desk-img {
@@ -78,7 +77,7 @@ body {
     box-shadow: 0 1px 10px hsl(257, 38%, 31%);
 
     position: relative;
-    right: 100px;
+    right: 120px;
 
     cursor: pointer;
 }
@@ -99,4 +98,20 @@ body {
 
 .attribution a { 
         color: hsl(0, 0%, 100%); 
+}
+
+@media (max-width: 600px) {
+    .elements {
+        display: flex;
+        flex-direction: column;
+    }
+    .desk-img {
+        height: 300px;
+    }
+    .attribution  {
+        margin-top: 30px;
+    }
+    .logo-img {
+        margin: 30px;
+    }
 }
